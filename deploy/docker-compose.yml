@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  haskell:
+    build:
+      context: ../
+    volumes:
+      - ../:/app
